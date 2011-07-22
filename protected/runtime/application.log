@@ -1,0 +1,1599 @@
+2011/04/04 12:48:23 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:48:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:49:35 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:49:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 12:50:47 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:50:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:52:00 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:52:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 12:53:12 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:53:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:54:25 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:54:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:55:44 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:55:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:56:54 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:56:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:58:02 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:58:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 12:59:13 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 12:59:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:00:23 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:00:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:01:33 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:01:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:02:43 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:02:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:03:53 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:03:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:05:04 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:05:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:06:13 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:06:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:07:23 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:07:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:08:37 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:08:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:09:47 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:09:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:10:57 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:10:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:12:08 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:12:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:13:19 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:13:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:14:27 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:14:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:15:38 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:15:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:16:49 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:16:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:17:59 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:17:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:19:08 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:19:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:20:18 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:20:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:21:28 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:21:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:22:38 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:22:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:23:49 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:23:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:24:59 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:24:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:26:09 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:26:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:27:20 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:27:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:28:29 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:28:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:29:40 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:29:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:30:51 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:30:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:32:00 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:32:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:33:13 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:33:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:34:25 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:34:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:35:34 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:35:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:36:45 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:36:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:37:56 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:37:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:38:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 13:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 13:39:12 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:39:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 13:40:25 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:40:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 13:41:43 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:41:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:42:57 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:42:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:44:09 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:44:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:45:24 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:45:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:46:36 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:46:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 13:47:51 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:47:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 13:49:11 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:49:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:50:20 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:50:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 13:51:32 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('qsb')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (60)
+in G:\project\php\lhc\index.php (10)
+2011/04/04 13:51:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(60): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/04 15:39:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/04 20:21:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/05 12:43:37 [error] [php] Argument 1 passed to CommonUtil::evalMetaData() must be an array, null given, called in G:\project\php\lhc\protected\components\CommonUtil.php on line 46 and defined (G:\project\php\lhc\protected\components\CommonUtil.php:54)
+Stack trace:
+#0 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): BetController->actionSettle()
+#1 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#2 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): BetController->runAction()
+#3 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#4 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): BetController->filterSiteAccess()
+#5 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#7 G:\project\php\lhc\core\web\CController.php(257): BetController->runActionWithFilters()
+#8 G:\project\php\lhc\core\web\CWebApplication.php(328): BetController->run()
+#9 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController()
+#10 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#11 G:\project\php\lhc\index.php(10): CWebApplication->run()
+REQUEST_URI=/bet/settle.do?_dc=1301978617226
+in G:\project\php\lhc\protected\components\CommonUtil.php (54)
+in G:\project\php\lhc\protected\components\CommonUtil.php (46)
+in G:\project\php\lhc\protected\controllers\BetController.php (393)
+2011/04/05 12:48:53 [error] [php] Argument 1 passed to CommonUtil::evalMetaData() must be an array, null given, called in G:\project\php\lhc\protected\components\CommonUtil.php on line 46 and defined (G:\project\php\lhc\protected\components\CommonUtil.php:54)
+Stack trace:
+#0 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): BetController->actionSettle()
+#1 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#2 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): BetController->runAction()
+#3 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#4 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): BetController->filterSiteAccess()
+#5 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#7 G:\project\php\lhc\core\web\CController.php(257): BetController->runActionWithFilters()
+#8 G:\project\php\lhc\core\web\CWebApplication.php(328): BetController->run()
+#9 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController()
+#10 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#11 G:\project\php\lhc\index.php(10): CWebApplication->run()
+REQUEST_URI=/bet/settle.do?_dc=1301978932938
+in G:\project\php\lhc\protected\components\CommonUtil.php (54)
+in G:\project\php\lhc\protected\components\CommonUtil.php (46)
+in G:\project\php\lhc\protected\controllers\BetController.php (396)
+2011/04/05 14:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/bullets.gif"。' in G:\project\php\lhc\core\web\CWebApplication.php:332
+Stack trace:
+#0 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('images/bullets....')
+#1 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#2 G:\project\php\lhc\index.php(10): CApplication->run()
+#3 {main} REQUEST_URI=/images/bullets.gif
+2011/04/05 14:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifySelfPassword" 动作.' in G:\project\php\lhc\core\web\CController.php:444
+Stack trace:
+#0 G:\project\php\lhc\core\web\CController.php(262): CController->missingAction('modifySelfPassw...')
+#1 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('modifySelfPassw...')
+#2 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/modifySelf...')
+#3 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#4 G:\project\php\lhc\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/user/modifySelfPassword.do
+2011/04/05 14:02:02 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('lm')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:02:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:03:05 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('lm')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:03:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:04:07 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('lm')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:04:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:05:09 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('lm')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:05:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:06:11 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('lm')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:06:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:07:14 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('lm')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:07:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:08:16 [error] [system.db.CDbCommand] Error in querying SQL: select ltrBtcId,ltrTypeId,sum(betSum*prorate_5) as bet,sum(-hyResult*prorate_5) as win,betCode from tbl_bet where termid='2011003' and `ltrBtcId` in ('lm')  and statUser_5='xcf6' group by ltrTypeId order by ltrTypeId
+in G:\project\php\lhc\protected\controllers\CtrController.php (103)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:08:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(335): CDbCommand->queryInternal('', 0, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(103): CDbCommand->query()
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:08:37 [error] [system.db.CDbCommand] Error in querying SQL: SELECT t.id,t.username,t.role,t.creditSum,t.parentProrate,t.maxProrate,t.parentId,p.username,(SELECT COUNT(*) FROM tbl_user c2 WHERE c2.parent_2=t.id AND c2.role=2) AS count2, 
+			(SELECT COUNT(*) FROM tbl_user c3 WHERE c3.parent_2=t.id AND c3.role=3) AS count3, 
+			(SELECT COUNT(*) FROM tbl_user c4 WHERE c4.parent_2=t.id AND c4.role=4) AS count4, 
+			(SELECT COUNT(*) FROM tbl_user c5 WHERE c5.parent_2=t.id AND c5.role=5) AS count5,t.partner,t.bh,t.leis,t.`status`,
+			p.leis AS parentLeis,p.maxProrate AS parentMaxProrate,
+			(SELECT MAX(c.maxProrate) FROM tbl_user c WHERE c.parentId=t.id) AS maxChildProrate
+			FROM tbl_user t LEFT JOIN tbl_user p ON p.id=t.parentId
+			WHERE t.role=:role AND t.`status`=:status AND t.parent_5='xcf6'
+in G:\project\php\lhc\protected\controllers\UserController.php (89)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:08:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.parent_5' in 'where clause'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(354): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 G:\project\php\lhc\protected\controllers\UserController.php(89): CDbCommand->queryAll(false, Array)
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): UserController->actionUsersJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('usersJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/usersJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/user/usersJson.do
+2011/04/05 14:08:54 [error] [system.db.CDbCommand] Error in querying SQL: SELECT t.id,t.username,t.role,t.creditSum,t.parentProrate,t.maxProrate,t.parentId,p.username,(SELECT COUNT(*) FROM tbl_user c2 WHERE c2.parent_1=t.id AND c2.role=2) AS count2, 
+			(SELECT COUNT(*) FROM tbl_user c3 WHERE c3.parent_1=t.id AND c3.role=3) AS count3, 
+			(SELECT COUNT(*) FROM tbl_user c4 WHERE c4.parent_1=t.id AND c4.role=4) AS count4, 
+			(SELECT COUNT(*) FROM tbl_user c5 WHERE c5.parent_1=t.id AND c5.role=5) AS count5,t.partner,t.bh,t.leis,t.`status`,
+			p.leis AS parentLeis,p.maxProrate AS parentMaxProrate,
+			(SELECT MAX(c.maxProrate) FROM tbl_user c WHERE c.parentId=t.id) AS maxChildProrate
+			FROM tbl_user t LEFT JOIN tbl_user p ON p.id=t.parentId
+			WHERE t.role=:role AND t.`status`=:status AND t.parent_5='xcf6'
+in G:\project\php\lhc\protected\controllers\UserController.php (89)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:08:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.parent_5' in 'where clause'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(354): CDbCommand->queryInternal('fetchAll', 3, Array)
+#1 G:\project\php\lhc\protected\controllers\UserController.php(89): CDbCommand->queryAll(false, Array)
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): UserController->actionUsersJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('usersJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/usersJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/user/usersJson.do
+2011/04/05 14:09:20 [error] [system.db.CDbCommand] Error in querying SQL: select sum(betSum*prorate_5) as bet from tbl_bet where termid='2011003' and `ltrBtcId` in ('tm','tmds','tmdx','tmhsds','tmwsdx','tmqs','tmsb')
+in G:\project\php\lhc\protected\controllers\CtrController.php (183)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:09:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(373): CDbCommand->queryInternal('fetch', 3, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(183): CDbCommand->queryRow(false)
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:10:22 [error] [system.db.CDbCommand] Error in querying SQL: select sum(betSum*prorate_5) as bet from tbl_bet where termid='2011003' and `ltrBtcId` in ('tm','tmds','tmdx','tmhsds','tmwsdx','tmqs','tmsb')
+in G:\project\php\lhc\protected\controllers\CtrController.php (183)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:10:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(373): CDbCommand->queryInternal('fetch', 3, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(183): CDbCommand->queryRow(false)
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:11:25 [error] [system.db.CDbCommand] Error in querying SQL: select sum(betSum*prorate_5) as bet from tbl_bet where termid='2011003' and `ltrBtcId` in ('tm','tmds','tmdx','tmhsds','tmwsdx','tmqs','tmsb')
+in G:\project\php\lhc\protected\controllers\CtrController.php (183)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:11:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(373): CDbCommand->queryInternal('fetch', 3, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(183): CDbCommand->queryRow(false)
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 14:12:27 [error] [system.db.CDbCommand] Error in querying SQL: select sum(betSum*prorate_5) as bet from tbl_bet where termid='2011003' and `ltrBtcId` in ('tm','tmds','tmdx','tmhsds','tmwsdx','tmqs','tmsb')
+in G:\project\php\lhc\protected\controllers\CtrController.php (183)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 14:12:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prorate_5' in 'field list'' in G:\project\php\lhc\core\db\CDbCommand.php:471
+Stack trace:
+#0 G:\project\php\lhc\core\db\CDbCommand.php(373): CDbCommand->queryInternal('fetch', 3, Array)
+#1 G:\project\php\lhc\protected\controllers\CtrController.php(183): CDbCommand->queryRow(false)
+#2 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): CtrController->actionRefreshJson()
+#3 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#4 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#6 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#9 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('refreshJson')
+#11 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('ctr/refreshJson')
+#12 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#13 G:\project\php\lhc\index.php(10): CApplication->run()
+#14 {main} REQUEST_URI=/ctr/refreshJson.do
+2011/04/05 15:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifyPassword" 动作.' in G:\project\php\lhc\core\web\CController.php:444
+Stack trace:
+#0 G:\project\php\lhc\core\web\CController.php(262): CController->missingAction('modifyPassword')
+#1 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('modifyPassword')
+#2 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/modifyPass...')
+#3 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#4 G:\project\php\lhc\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/user/modifyPassword.do
+2011/04/05 15:59:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifyStatus" 动作.' in G:\project\php\lhc\core\web\CController.php:444
+Stack trace:
+#0 G:\project\php\lhc\core\web\CController.php(262): CController->missingAction('modifyStatus')
+#1 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('modifyStatus')
+#2 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/modifyStat...')
+#3 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#4 G:\project\php\lhc\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/user/modifyStatus.do
+2011/04/05 16:00:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifyMaxProrate" 动作.' in G:\project\php\lhc\core\web\CController.php:444
+Stack trace:
+#0 G:\project\php\lhc\core\web\CController.php(262): CController->missingAction('modifyMaxProrat...')
+#1 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('modifyMaxProrat...')
+#2 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/modifyMaxP...')
+#3 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#4 G:\project\php\lhc\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/user/modifyMaxProrate.do
+2011/04/05 16:00:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifyMaxProrate" 动作.' in G:\project\php\lhc\core\web\CController.php:444
+Stack trace:
+#0 G:\project\php\lhc\core\web\CController.php(262): CController->missingAction('modifyMaxProrat...')
+#1 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('modifyMaxProrat...')
+#2 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/modifyMaxP...')
+#3 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#4 G:\project\php\lhc\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/user/modifyMaxProrate.do
+2011/04/05 16:04:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifyParentProrate" 动作.' in G:\project\php\lhc\core\web\CController.php:444
+Stack trace:
+#0 G:\project\php\lhc\core\web\CController.php(262): CController->missingAction('modifyParentPro...')
+#1 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('modifyParentPro...')
+#2 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/modifyPare...')
+#3 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#4 G:\project\php\lhc\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/user/modifyParentProrate.do
+2011/04/05 16:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifyAbh" 动作.' in G:\project\php\lhc\core\web\CController.php:444
+Stack trace:
+#0 G:\project\php\lhc\core\web\CController.php(262): CController->missingAction('modifyAbh')
+#1 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('modifyAbh')
+#2 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/modifyAbh')
+#3 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#4 G:\project\php\lhc\index.php(10): CApplication->run()
+#5 {main} REQUEST_URI=/user/modifyAbh.do
+2011/04/05 16:32:42 [error] [system.db.CDbCommand] Error in executing SQL: update tbl_autobh set sums=,auto=1 where userid='xcf2' and idx=0
+in G:\project\php\lhc\protected\controllers\UserController.php (360)
+in G:\project\php\lhc\protected\components\Controller.php (66)
+in G:\project\php\lhc\index.php (10)
+2011/04/05 16:32:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'auto=1 where userid='xcf2' and idx=0' at line 1' in G:\project\php\lhc\core\db\CDbCommand.php:316
+Stack trace:
+#0 G:\project\php\lhc\protected\controllers\UserController.php(360): CDbCommand->execute()
+#1 G:\project\php\lhc\core\web\actions\CInlineAction.php(57): UserController->actionModifyAbh()
+#2 G:\project\php\lhc\core\web\CController.php(300): CInlineAction->run()
+#3 G:\project\php\lhc\core\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 G:\project\php\lhc\protected\components\Controller.php(66): CFilterChain->run()
+#5 G:\project\php\lhc\core\web\filters\CInlineFilter.php(59): Controller->filterSiteAccess(Object(CFilterChain))
+#6 G:\project\php\lhc\core\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 G:\project\php\lhc\core\web\CController.php(283): CFilterChain->run()
+#8 G:\project\php\lhc\core\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 G:\project\php\lhc\core\web\CWebApplication.php(328): CController->run('modifyAbh')
+#10 G:\project\php\lhc\core\web\CWebApplication.php(121): CWebApplication->runController('user/modifyAbh')
+#11 G:\project\php\lhc\core\base\CApplication.php(155): CWebApplication->processRequest()
+#12 G:\project\php\lhc\index.php(10): CApplication->run()
+#13 {main} REQUEST_URI=/user/modifyAbh.do
